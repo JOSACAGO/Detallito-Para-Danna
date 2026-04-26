@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para Danna 💖</title>
+    <style>
+        body { 
+            margin: 0; 
+            padding: 20px;
+            font-family: 'Georgia', serif;
+            background: linear-gradient(135deg, #fdf2f8 0%, #fce7f3 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container { 
+            background: white;
+            padding: 40px 30px;
+            border-radius: 20px;
+            border: 3px solid #f9a8d4;
+            box-shadow: 0 10px 30px rgba(249, 168, 212, 0.3);
+            text-align: center;
+            max-width: 350px;
+        }
+        .foto { 
+            max-width: 220px; 
+            border-radius: 15px;
+            border: 3px solid #f9a8d4;
+            margin-bottom: 25px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        h1 { 
+            color: #db2777; 
+            font-size: 1.8em;
+            margin: 15px 0;
+            font-family: 'Brush Script MT', cursive;
+        }
+        .texto {
+            color: #4a5568;
+            font-size: 1.1em;
+            line-height: 1.6;
+            font-style: italic;
+        }
+        .firma {
+            color: #db2777; 
+            font-size: 1.1em;
+            margin-top: 20px;
+            font-weight: bold;
+        }
+        .emoji-final {
+            font-size: 1.8em;
+            margin-top: 15px;
+        }
+        
+        /* EMOJIS ANIMADOS COMO CORAZÓN LATIENDO */
+        .latido {
+            display: inline-block;
+            animation: latir 1.5s infinite;
+        }
+        .latido:nth-child(2) {
+            animation-delay: 0.3s; /* pa' que no latan todos igual */
+        }
+        .latido:nth-child(3) {
+            animation-delay: 0.6s;
+        }
+        
+        @keyframes latir {
+            0% { transform: scale(1); }
+            14% { transform: scale(1.3); }
+            28% { transform: scale(1); }
+            42% { transform: scale(1.3); }
+            70% { transform: scale(1); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- FOTO DE DANNA -->
+        <img src="danna.jpg" alt="Danna" class="foto">
+        
+        <!-- TÍTULO -->
+        <h1>Para ti, Danna 🥺💖</h1>
+        
+        <!-- TEXTO -->
+        <p class="texto">
+            Hola princesa...<br><br>
+            Te volviste mi parte favorita del día 😁<br>
+            Eres mi ñiña, mi corazón, y aunque estemos lejos... no dejo de pensar en ti 🥺<br><br>
+            Solo quería recordártelo... y que tengas esto para cuando me extrañes 😘💕
+        </p>
+        
+        <!-- FIRMA -->
+        <p class="firma">Alguien que muere por ti</p>
+        
+        <!-- EMOJIS ANIMADOS -->
+        <div class="emoji-final">
+            <span class="latido">😘</span>
+            <span class="latido">💖</span>
+            <span class="latido">🥺</span>
+        </div>
+    </div>
+</body>
+</html>
