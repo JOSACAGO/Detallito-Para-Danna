@@ -1,2 +1,2 @@
 # Detallito-Para-Danna
-💖 Un detalle especial para alguien especial 🥺
+ Un detalle especial para alguien especial 🥺
